@@ -1,17 +1,17 @@
 # Power Management V2
 
-""" This module lets you manage the power modes of the micro:bit V2.
+"""This module lets you manage the power modes of the micro:bit V2.
 
-There are two micro:bit board low power modes that can be requested 
+There are two micro:bit board low power modes that can be requested
 from MicroPython:
 
-    Deep Sleep: Low power mode where the board can be woken up via 
-    multiple sources (pins, button presses, uart data, or a timer) 
+    Deep Sleep: Low power mode where the board can be woken up via
+    multiple sources (pins, button presses, uart data, or a timer)
     and resume operation.
-    Off: The power mode with the lowest power consumption, the only 
-    way to wake up the board is via the reset button, or by plugging 
-    the USB cable while on battery power. When the board wakes up it 
-    will restart and execute your programme from the beginning. """
+    Off: The power mode with the lowest power consumption, the only
+    way to wake up the board is via the reset button, or by plugging
+    the USB cable while on battery power. When the board wakes up it
+    will restart and execute your programme from the beginning."""
 
 # Functions
 

@@ -1,8 +1,8 @@
 # Microphone V2
 
-""" This object lets you access the built-in microphone available on the micro:bit V2. It can 
-be used to respond to sound. The microphone input is located on the front of the board 
-alongside a microphone activity LED, which is lit when the microphone is in use. """
+"""This object lets you access the built-in microphone available on the micro:bit V2. It can
+be used to respond to sound. The microphone input is located on the front of the board
+alongside a microphone activity LED, which is lit when the microphone is in use."""
 
 
 # Sound events

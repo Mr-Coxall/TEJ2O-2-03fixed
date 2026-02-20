@@ -1,13 +1,13 @@
 # UART
 
-""" The uart module lets you talk to a device connected to your board 
-using a serial interface. 
+"""The uart module lets you talk to a device connected to your board
+using a serial interface.
 
 Warning
-    Initializing the UART on external pins will cause the Python console on USB to become 
-    unaccessible, as it uses the same hardware. To bring the console back you must 
-    reinitialize the UART without passing anything for tx or rx (or passing None to these 
-    arguments). This means that calling uart.init(115200) is enough to restore the Python 
+    Initializing the UART on external pins will cause the Python console on USB to become
+    unaccessible, as it uses the same hardware. To bring the console back you must
+    reinitialize the UART without passing anything for tx or rx (or passing None to these
+    arguments). This means that calling uart.init(115200) is enough to restore the Python
     console."""
 
 # Functions

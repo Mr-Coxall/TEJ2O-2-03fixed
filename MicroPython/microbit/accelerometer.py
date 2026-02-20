@@ -1,19 +1,19 @@
 # Accelerometer
 
-""" This module gives you access to the on-board accelerometer.
-By default MicroPython sets the accelerometer range to +/- 2000 mg (g being a unit of 
-acceleration based on the standard gravity), which configures the maximum and minimum 
+"""This module gives you access to the on-board accelerometer.
+By default MicroPython sets the accelerometer range to +/- 2000 mg (g being a unit of
+acceleration based on the standard gravity), which configures the maximum and minimum
 values returned by the accelerometer functions. The range can be changed via set_range().
 
-The accelerometer also provides convenience functions for detecting gestures. The 
-recognised gestures are represented as strings: up, down, left, right, face up, face down, 
+The accelerometer also provides convenience functions for detecting gestures. The
+recognised gestures are represented as strings: up, down, left, right, face up, face down,
 freefall, 3g, 6g, 8g, shake.
 
 Note:
-Gestures are not updated in the background so there needs to be constant calls to some 
-accelerometer method to do the gesture detection. Usually gestures can be detected using a 
+Gestures are not updated in the background so there needs to be constant calls to some
+accelerometer method to do the gesture detection. Usually gestures can be detected using a
 loop with a small sleep() delay.
-Functions """
+Functions"""
 
 # Functions
 

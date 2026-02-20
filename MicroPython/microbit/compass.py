@@ -1,11 +1,11 @@
 # Compass
-""" This module lets you access the built-in electronic compass. Before using, the compass should 
+"""This module lets you access the built-in electronic compass. Before using, the compass should
 be calibrated, otherwise the readings may be wrong.
 
 Warning:
-Calibrating the compass will cause your program to pause until calibration is complete. 
-Calibration consists of a little game to draw a circle on the LED display by rotating the 
-device. """
+Calibrating the compass will cause your program to pause until calibration is complete.
+Calibration consists of a little game to draw a circle on the LED display by rotating the
+device."""
 
 # Functions
 

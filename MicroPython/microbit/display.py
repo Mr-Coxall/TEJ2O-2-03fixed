@@ -1,6 +1,6 @@
 # Display
-""" This module controls the 5×5 LED display on the front of your board. It can be used to 
-display images, animations and even text. """
+"""This module controls the 5×5 LED display on the front of your board. It can be used to
+display images, animations and even text."""
 
 # Functions
 
