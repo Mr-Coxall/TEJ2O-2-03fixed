@@ -1,7 +1,7 @@
 # Random Number Generation
 
-""" This module is based upon the random module in the Python standard library. 
-It contains functions for generating random behaviour. """
+"""This module is based upon the random module in the Python standard library.
+It contains functions for generating random behaviour."""
 
 
 def getrandbits(n):

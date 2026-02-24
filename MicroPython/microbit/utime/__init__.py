@@ -1,10 +1,10 @@
 # utime
 
-""" The utime module provides functions for getting the current 
+"""The utime module provides functions for getting the current
 time and date, measuring time intervals, and for delays.
 
 Note
-The utime module is a MicroPython implementation of the standard 
+The utime module is a MicroPython implementation of the standard
 Python time module."""
 
 # Functions

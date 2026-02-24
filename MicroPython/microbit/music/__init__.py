@@ -1,8 +1,8 @@
 # Music
 
-""" This is the music module and you can use it to create and play melodies. 
-By default sound output will be via the edge connector on pin 0 and the 
-built-in speaker V2.  """
+"""This is the music module and you can use it to create and play melodies.
+By default sound output will be via the edge connector on pin 0 and the
+built-in speaker V2."""
 
 # Musical Notation
 

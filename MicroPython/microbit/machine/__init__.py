@@ -1,11 +1,11 @@
 # Machine
 
-""" The machine module contains specific functions related to the micro:bit 
-hardware. Most functions in this module allow to achieve direct and 
-unrestricted access to and control of hardware blocks on a system 
-(like CPU, timers, buses, etc.). Used incorrectly, this can lead to 
-malfunction, lockups, crashes of your board, and in extreme cases, 
-hardware damage. """
+"""The machine module contains specific functions related to the micro:bit
+hardware. Most functions in this module allow to achieve direct and
+unrestricted access to and control of hardware blocks on a system
+(like CPU, timers, buses, etc.). Used incorrectly, this can lead to
+malfunction, lockups, crashes of your board, and in extreme cases,
+hardware damage."""
 
 # Functions
 

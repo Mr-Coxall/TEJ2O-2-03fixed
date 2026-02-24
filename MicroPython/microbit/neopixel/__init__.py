@@ -1,12 +1,12 @@
 # NeoPixel
 
-""" The neopixel module lets you use NeoPixel (WS2812) individually addressable RGB and 
+"""The neopixel module lets you use NeoPixel (WS2812) individually addressable RGB and
 RGBW LED strips with the micro:bit.
 Warning
-Do not use the 3v connector on the Microbit to power any more than 8 Neopixels at a 
-time. If you wish to use more than 8 Neopixels, you must use a separate 3v-5v power 
-supply for the Neopixel power pin. 
-For an in depth explanation visit: 
+Do not use the 3v connector on the Microbit to power any more than 8 Neopixels at a
+time. If you wish to use more than 8 Neopixels, you must use a separate 3v-5v power
+supply for the Neopixel power pin.
+For an in depth explanation visit:
 https://microbit-micropython.readthedocs.io/en/v2-docs/neopixel.html"""
 
 # Classes

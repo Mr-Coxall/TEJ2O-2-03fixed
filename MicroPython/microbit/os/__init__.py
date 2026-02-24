@@ -1,11 +1,11 @@
 # The os Module
 
-""" MicroPython contains an os module based upon the os module in the 
-Python standard library. It’s used for accessing what would traditionally 
-be termed as operating system dependent functionality. Since there is no 
-operating system in MicroPython the module provides functions relating to 
-the management of the simple on-device persistent file system and 
-information about the current system. """
+"""MicroPython contains an os module based upon the os module in the
+Python standard library. It’s used for accessing what would traditionally
+be termed as operating system dependent functionality. Since there is no
+operating system in MicroPython the module provides functions relating to
+the management of the simple on-device persistent file system and
+information about the current system."""
 
 
 def listdir():

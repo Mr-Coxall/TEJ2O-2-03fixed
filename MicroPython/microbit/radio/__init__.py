@@ -1,5 +1,5 @@
 # Radio
-""" The radio module allows devices to work together via simple wireless networks. """
+"""The radio module allows devices to work together via simple wireless networks."""
 
 # Constants
 

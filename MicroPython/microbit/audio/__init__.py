@@ -1,12 +1,12 @@
 # Audio
 
-""" This module allows you play sounds with the micro:bit.
+"""This module allows you play sounds with the micro:bit.
 
 By default sound output will be via the edge connector on pin 0 and the built-in speaker (V2).
-You can connect wired headphones or a speaker to pin 0 and GND on the edge connector to hear 
+You can connect wired headphones or a speaker to pin 0 and GND on the edge connector to hear
 the sounds. The audio module can be imported as import audio.
 
-There are three different kinds of audio sources that can be played using 
+There are three different kinds of audio sources that can be played using
 the play() function:
 
     Built in sounds (V2), e.g. play(Sound.HAPPY)
@@ -16,14 +16,14 @@ the play() function:
     my_effect = audio.SoundEffect(freq_start=400, freq_end=2500, duration=500)
     audio.play(my_effect)
 
-    Audio Frames, an iterable (like a list or a generator) of Audio Frames, which are lists 
+    Audio Frames, an iterable (like a list or a generator) of Audio Frames, which are lists
     of 32 samples with values from 0 to 255:
 
     square_wave = AudioFrame()
     for i in range(16):
         square_wave[i] = 0
         square_wave[i + 16] = 255
-    play([square_wave] * 64) """
+    play([square_wave] * 64)"""
 
 # Functions
 
